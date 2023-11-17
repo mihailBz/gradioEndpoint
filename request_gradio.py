@@ -6,7 +6,7 @@ def request_gradio(
         seed=0,
         guidance_scale=15,
         inference_steps=64,
-        url="https://hysts-shap-e.hf.space/--replicas/vxg55/",
+        url="https://hysts-shap-e.hf.space/--replicas/fwz55/",
         api_name="/text-to-3d"
 ):
     return Client(url).predict(
